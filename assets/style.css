@@ -1,0 +1,61 @@
+.background-site{
+    background: #1F1F1F;
+}
+
+.standard-font{
+    color: indianred;
+}
+
+.card {
+    width: 190px;
+    height: 180px;
+    background-image: linear-gradient(144deg, rgb(205, 92, 92), rgba(38, 64, 225, 0.65) 60%, #f84545);
+    border: none;
+    position: relative;
+    margin: auto;
+    font-family: inherit;
+}
+
+
+.card button {
+    padding: 8px 25px;
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+    border: none;
+    margin-top: 30px;
+    background: #e8e8e8;
+    color: #111111;
+    font-weight: 600;
+}
+
+.card button:hover {
+    background: #212121;
+    color: #ffffff;
+}
+
+
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background: rgb(31, 31, 31);        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #cd5c5c;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid rgb(31, 31, 31);  /* creates padding around scroll thumb */
+}
+
+body {
+    scrollbar-width: thin;          /* "auto" or "thin" */
+    scrollbar-color: #cd5c5c rgb(31, 31, 31);   /* scroll thumb and track */
+}
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
